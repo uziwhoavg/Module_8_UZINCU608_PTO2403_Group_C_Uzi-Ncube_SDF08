@@ -5,13 +5,13 @@
 ## Steps to Complete
 
 - **Access the Course**: Start by going to [Build your web developer portfolio (scrimba.com)](https://scrimba.com/learn/portfolio) 
-- **Access the Starter Code:** [CodeSpace-Academy/Module_8_StudentNo_Classcode_Group_Name-Surname_SDF08 (github.com)](https://github.com/CodeSpace-Academy/Module_8_StudentNo_Classcode_Group_Name-Surname_SDF08)
 - **Allocate Time for the Course**: The course comprises 22 lessons totaling approximately 2 hours and 26 minutes. Set aside around 3-4 hours to complete the course, including the time for building and customizing your portfolio.
 - **Build the Website**: Follow the course to build your portfolio. 
 - **Deployment:** You ARE NOT REQUIRED TO DEPLOY your app for this project submission. You will only be submitting the files on GitHub. 
 # Code Along with the Build Your Portfolio MVP 
 
 This guide will walk you through the process of forking the Build Your Portfolio MVP  starter code from GitHub, and then coding along with Scrimba's course using Visual Studio Code (VSCode). By the end of this guide, you will have a local development environment set up to work on your Portfolio MVP.
+
 ## Step 1: Fork the Repository
 
 Forking allows you to have a personal copy of the project on their GitHub account, which you can then clone to your local machine, make changes, commit, and push back to your forked version without affecting the original repository.
@@ -37,10 +37,12 @@ The course spans roughly two and a half hours.
 1. **Access the Scrimba Course:** Open the [Build your web developer portfolio (scrimba.com)](https://scrimba.com/learn/portfolio) in your web browser.
 2. **Follow Along:** As you progress through the Scrimba lessons, switch back to VSCode to apply what you've learned to your local project files.
 3. **Save Your Work:** Regularly save your files in VSCode by pressing **Ctrl+S** (Windows/Linux) or **Cmd+S** (Mac).
+
 ## Step 5: Test Your App Locally
 
 1. **Open the HTML File:** Right-click the `index.html` file in the VSCode sidebar and select **Open with Live Server** if you have the [Live Server extension]([Live Server Extension for Visual Studio Code | Full Tutorial (youtube.com)](https://www.youtube.com/watch?v=_Tl-6HeV0Rc&t=269s)) installed. Alternatively, you can open the file in your browser by navigating to the file location.
 2. **Test the App:** Interact with your app in the browser to test its functionality. Make adjustments in VSCode as needed.
+
 ## Step 6: Commit and Push Changes
 
 Once you are done and you wish to update your GitHub fork with the changes:
