@@ -1,15 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <title>DevUzi Portfolio Website</title>
 
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="crossorigin="anonymous"/>  
+        <link rel="stylesheet" href="styles.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"/>
 
     </head>
+
+
     <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="header">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>uzi|who</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">AVG ART DIR.</p>
+            <img 
+                src="img/dev-jane-01.jpg" 
+                alt="a picture of uzi" 
+                class="intro_img"
+            />
+        </section>
         
+        <!-- My services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            
+            <div class="services">
+                <div class="service">
+                    <h3>Brand Development and Strategy</h3>
+                    <p>As creative director I play a crucial role in developing and defining a brand's identity. This includes creating a brand strategy that aligns with the company's vision, values, and market positioning. I would oversee the creation of visual elements such as logos, color schemes, typography, and overall aesthetic guidelines to ensure a cohesive and recognizable brand image.</p>
+                </div> <!-- / -->
+                
+                <div class="service">
+                    <h3>Creative Concept and Campaign Development</h3>
+                    <p>I would be are responsible for generating innovative ideas and concepts for advertising campaigns, marketing materials, and other promotional content. I would lead brainstorming sessions, conceptualize themes, and ensure that the creative output aligns with the brand's objectives. This involves collaborating with various teams, including copywriters, designers, and marketers, to produce compelling and effective campaigns.</p>
+                </div> <!-- / -->
+                
+                <div class="service">
+                    <h3>Project Management and Team Leadership</h3>
+                    <p>Managing creative projects from inception to completion is a key service I would provide. I would oversee the creative process, set project timelines, allocate resources, and ensure that the final deliverables meet the highest standards of quality. Additionally, as a creative director, I would mentor and guide their creative team, fostering a collaborative and productive work environment to achieve the best possible results.</p>
+                </div> <!-- / -->
+            </div> <!-- /  -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        <!-- About me -->
+        <section class="about-me" id="about">
+        
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Avant-Garde creative & artistic director</p>
+            
+            <div class="about-me__body">
+                <p>As the multifaceted force behind my brand, I am an innovative brand owner, creative director, and musical artist.With a passion for collaboration, I thrive on bringing together diverse talents to create compelling and authentic experiences.</p>
+                <p>My expertise in music production ensures that each project is infused with my distinctive sound and vision. Alongside my creative endeavors, I have curated and designed resources for marketing campaigns, blending artistic flair with strategic intent to captivate audiences and drive engagement. Through my dynamic and versatile approach, I consistently deliver memorable and impactful content that resonates with audiences worldwide.</p>
+            </div>
+            <img src="img/dev-jane-02.jpg" alt="uzi at his work station" class="about-me__img">
+
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"> An overview of previous work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-01.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-02.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-03.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-04.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-05.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-06.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-07.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 10-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.png" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 11-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-11.png" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 12-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-12.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="mailto:uzinc****@gmail.com" class="footer__link">hello@devuzi.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.behance.net/uzilencube"><i class="fab fa-behance"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://music.apple.com/bw/artist/uzi-trizzle/1469875547"><i class="fab fa-itunes"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com//uzi.trizzle/"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/uziwhoavg"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
     </body>
 </html>
